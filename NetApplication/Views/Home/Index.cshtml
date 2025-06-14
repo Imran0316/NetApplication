@@ -1,0 +1,96 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    /* Basic reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        background-color: #f7f9fc;
+        color: #333;
+    }
+
+    /* Hero Section */
+    .hero {
+        padding: 40px 20px;
+        text-align: center;
+        background-color: #e1e9f0;
+        margin-bottom: 40px;
+    }
+
+        .hero .display-4 {
+            color: #0057b8;
+            margin-bottom: 10px;
+        }
+
+    /* Container */
+    .container {
+        max-width: 700px;
+        margin: auto;
+        text-align: center;
+    }
+
+    /* Services Section */
+    .services h2 {
+        color: #0057b8;
+        margin-bottom: 30px;
+    }
+
+    .service-card {
+        background-color: white;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+        .service-card h3 {
+            color: #0057b8;
+            margin-bottom: 10px;
+        }
+
+    /* Footer */
+    footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 10px;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+
+</style>
+<div class="text-center hero">
+    <h1 class="display-4">Digital Services</h1>
+    <p>Your One-Stop Solution for All Digital Needs</p>
+    <p>We provide top-notch services to grow your business online.</p>
+</div>
+
+<section class="services container">
+    <h2>Our Services</h2>
+
+    <div class="service-card">
+        <h3>Web Development</h3>
+        <p>Custom websites built with modern technologies.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>SEO Optimization</h3>
+        <p>Boost your visibility on search engines like Google.</p>
+    </div>
+
+    <div class="service-card">
+        <h3>Graphic Design</h3>
+        <p>Creative logos, banners, and brand identities.</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Digital Services. All rights reserved.</p>
+</footer>
